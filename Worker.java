@@ -6,7 +6,7 @@ public class Worker implements Runnable {
 
     public void run() {
         while (true) {
-            int delta = 0;
+            int delta = -1;
 
             if (random.nextDouble() < Crystal.getP() && i > 0) {
                 delta = -1;
